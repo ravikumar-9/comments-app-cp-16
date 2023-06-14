@@ -1,0 +1,176 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .comments-heading {
+    font-weight: bold;
+    font-size: 40px;
+    color: #1e293b;
+    padding-left: 120px;
+    padding-top: 40px;
+  }
+  .comments-card {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-self: flex-start;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .name-input {
+    height: 34px;
+    width: 90%;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #475569;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  .comment {
+    width: 90%;
+    align-self: flex-start;
+    cursor: pointer;
+    margin-bottom: 9px;
+  }
+  .button {
+    height: 30px;
+    width: 70px;
+    border-width: 0px;
+    background-color: #0b69ff;
+    font-size: 9px;
+    color: #ffffff;
+    border-radius: 7px;
+  }
+  .image {
+    margin-left: 20px;
+  }
+
+  .horizontal-line {
+    width: 90%;
+    color: #1e293b;
+  }
+  .comments {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: roboto;
+    color: #1e293b;
+    padding-left: 90px;
+  }
+  .comments-count {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-width: 0px;
+    background-color: #0284c7;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .comments-heading {
+    font-weight: bold;
+    font-size: 40px;
+    color: #1e293b;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .comments-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+  }
+  .name-input {
+    height: 34px;
+    width: 90%;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #475569;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  .user-comment {
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .button {
+    height: 30px;
+    width: 70px;
+    border-width: 0px;
+    background-color: #0b69ff;
+    font-size: 9px;
+    color: #ffffff;
+    border-radius: 7px;
+  }
+  .image {
+    margin: auto;
+    align-self: center;
+    width: 70%;
+  }
+
+  .horizontal-line {
+    width: 90%;
+    color: #1e293b;
+    align-self: center;
+  }
+  .comments {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: roboto;
+    color: #1e293b;
+  }
+  .comments-count {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-width: 0px;
+    background-color: #0284c7;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+    align-self: flex-start;
+    text-align: start;
+  }
+  .image-container {
+    align-self: center;
+    margin: auto;
+    margin-left: 40px;
+  }
+}
+
+.comments-container {
+  list-style: none;
+}
